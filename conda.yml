@@ -1,0 +1,13 @@
+name: olist
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - pip:
+    - mlflow
+    - tensorflow-cpu
+    - pandas
+    - numpy
